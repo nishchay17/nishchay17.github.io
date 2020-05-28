@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Pacifico", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes changeColor {
+  0% {
+    color: #9cdded;
+  }
+
+  50% {
+    color: #ff8f26;
+  }
+
+  100% {
+    color: #ffffff;
+  }
+}
+
+.lco {
+  animation: changeColor 5s infinite;
+}
+
+body {
+  background-color: #9cdded !important;
+}
+nav {
+  font-size: 1.5rem;
+}
+
+.mainImage {
+  background-image: url("./images/artimg-1-min.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.subBody {
+  background: linear-gradient(
+    180deg,
+    rgba(156, 221, 237, 1) 0%,
+    rgba(149, 190, 223, 1) 38%,
+    rgba(144, 167, 213, 1) 62%,
+    rgba(137, 135, 198, 1) 75%,
+    rgba(109, 14, 143, 1) 100%
+  );
+}
+
+a:hover {
+  color: #ff8f26 !important;
+  text-decoration: none;
+}
+
+.secondColor {
+  background-color: #6d0e8f !important;
+}
+
+.mainColor {
+  color: #6d0e8f;
+}
+
+.mycard {
+  background-color: #ff8f26 !important;
+}
+.faqbtn {
+  background-color: #6d0e8f !important;
+}
+
+.mybtn {
+  background-color: #ff8f26 !important;
+  cursor: default;
+}
+
+footer {
+  color: white;
+  background-color: #6d0e8f !important;
+}
