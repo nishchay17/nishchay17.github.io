@@ -6,7 +6,7 @@ const nav = document.getElementById("nav");
 const body = document.querySelector("body");
 const spam = document.querySelectorAll("span");
 
-window.location.href = "https://nishchay17.netlify.app/";
+// window.location.href = "https://nishchay17.netlify.app/";
 
 if (identifier.classList[0] == "home") {
   isHome = true;
