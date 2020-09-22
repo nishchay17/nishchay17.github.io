@@ -1,7 +1,29 @@
-.dark{
-    background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-.dark1{
-    background-color: rgb(32, 31, 31);
+.dark {
+  background-color: black;
+}
+
+.dark1 {
+  background-color: rgb(32, 31, 31);
+}
+
+.card {
+  border: 0.2rem solid black;
+}
+
+.popColor {
+  color: #fd0054;
+}
+
+.btn-dark,
+.btn-dark:visited,
+.btn-dark:focus,
+.btn-dark:active {
+  background-color: black;
+  border: black;
 }
